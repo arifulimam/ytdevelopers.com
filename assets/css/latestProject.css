@@ -1,0 +1,7 @@
+#latestProject{
+    /*background-color: #bdbfc1;
+    width: 100%;
+    background: linear-gradient(120deg, #bdbfc1, #ECEDED, #c1c2c4, #f1f1f3, #c1c2c4);*/
+     background-image: url('../img/background.jpg'), url('../img/background.jpg'), url('../img/background.jpg');
+     background-position: 100%;
+    background-repeat: repeat;

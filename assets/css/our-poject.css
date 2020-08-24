@@ -1,0 +1,8 @@
+#our-poject{
+    background-color: #c1c2c4;
+    width: 100%;
+    background: linear-gradient(120deg, #c1c2c4, #f1f1f3, #c1c2c4, #f1f1f3, #c1c2c4);
+    background-image: url('../img/landing-top-slide-img-2.png'), url('../img/landing-top-slide-img-3.png');
+    background-position: 135% 0%, 0% 100%;
+    background-repeat: no-repeat, no-repeat;
+  }

@@ -1,0 +1,138 @@
+/* Footer */
+#footer-section, footer.footer{
+    background-image: url('../img/background.jpg'), url('../img/background.jpg'), url('../img/background.jpg');
+     background-position: 100%;
+    background-repeat: repeat;
+  }
+  
+  #footer p {
+    color: rgba(2, 2, 2, 0.863);
+  }
+  
+  #footer .float {
+    float: left;
+    margin-right: 10%;
+  }
+  #footer ul {
+    padding: 0;
+    margin: 0;
+  }
+  #footer ul li {
+    padding: 0;
+    margin: 0 0 10px 0;
+    list-style: none;
+    color: rgb(0, 70, 66);
+  }
+  #footer ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none !important;
+  }
+  #footer ul li a:hover {
+    color: #d12116;
+  }
+  #footer .contact-info {
+    margin: 0 0 60px 0;
+    padding: 0;
+  }
+  #footer .contact-info li {
+    list-style: none;
+    margin: 0 0 20px 0;
+    position: relative;
+    padding-left: 40px;
+  }
+  #footer .contact-info li i {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+  }
+  #footer .contact-info li a {
+    color: rgb(251, 252, 255);
+  }
+  #footer .contact-form .form-group input[type="name"],
+  #footer .contact-form .form-group input[type="text"],
+  #footer .contact-form .form-group input[type="email"],
+  #footer .contact-form .form-group textarea {
+    font-size: 16px;
+  }
+  #footer .contact-form .form-group input[type="name"]::-webkit-input-placeholder,
+  #footer .contact-form .form-group input[type="text"]::-webkit-input-placeholder,
+  #footer .contact-form .form-group input[type="email"]::-webkit-input-placeholder,
+  #footer .contact-form .form-group textarea::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #footer .contact-form .form-group input[type="name"]:-moz-placeholder,
+  #footer .contact-form .form-group input[type="text"]:-moz-placeholder,
+  #footer .contact-form .form-group input[type="email"]:-moz-placeholder,
+  #footer .contact-form .form-group textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #footer .contact-form .form-group input[type="name"]::-moz-placeholder,
+  #footer .contact-form .form-group input[type="text"]::-moz-placeholder,
+  #footer .contact-form .form-group input[type="email"]::-moz-placeholder,
+  #footer .contact-form .form-group textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #footer .contact-form .form-group input[type="name"]:-ms-input-placeholder,
+  #footer .contact-form .form-group input[type="text"]:-ms-input-placeholder,
+  #footer .contact-form .form-group input[type="email"]:-ms-input-placeholder,
+  #footer .contact-form .form-group textarea:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #footer .contact-form .form-group input {
+    color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+  }
+  #footer .contact-form .form-group textarea {
+    color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+  }
+  #footer #btn-submit {
+    color: rgba(255, 255, 255, 0.9) !important;
+    background: #e93530 !important;
+  }
+  #footer .copy-right {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 5em;
+    margin-top: 5em;
+  }
+  #footer .copy-right p {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+  }
+  #footer .copy-right p a {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  p.copy-right{
+    font-weight: normal;
+    font-size: 16px;
+  position: relative;
+    color: #111010!important;
+    font-family: futuraBookFont;
+  }
+   
+  
+  /* footer social icons */
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  

@@ -54,13 +54,14 @@ $(document).scroll(function() {
     if (scrollDistance >50) {
       $('.scroll-to-top').fadeIn();
       $('#top-navana-navbar').addClass('scrolled-nav');
-      $('.logo-overlay img').css({"width":"50%","transition": "all 0.4s", "-webkit-transition": "all .4s","margin-top":"0"});
+      $('.logo-overlay img').css({"width":"10%","transition": "all 0.4s", "-webkit-transition": "all .4s","margin-top":"0"});
       $('#advance_search').addClass('advance_search_box');
 
-    } else {
+    } 
+    else {
       $('.scroll-to-top').fadeOut();
       $('#top-navana-navbar').removeClass('scrolled-nav');
-      $('.logo-overlay img ').css({"width":"120px","transition": "all 0.4s", "-webkit-transition": "all .4s", "margin-top":"0"});
+      $('.logo-overlay img ').css({"width":"10%","transition": "all 0.4s", "-webkit-transition": "all .4s", "margin-top":"0"});
       $('#advance_search').removeClass('advance_search_box');
     }
 
