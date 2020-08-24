@@ -10,18 +10,31 @@
     <meta name="msapplication-TileImage" content="#">
     <meta name="theme-color" content="#ffffff">
     <!-- Bootstrap Core CSS -->
+    
     <link href="assets/libs/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="assets/libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
-	  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
     <!-- Custom CSS -->
+
+    <!-- Start: css for zoom for images -->
+    <link href="assets/css/zoom/viewbox.css" rel="stylesheet">
+    <!-- End: css for zoom for images -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons"/>
     <link href="assets/css/styles.css" rel="stylesheet">
     <link href="assets/css/animate.css" rel="stylesheet">
     <link href="assets/libs/particles/fm.revealator.jquery.css" rel="stylesheet">
+    <!-- <link href="assets/css/ytdev.css" rel="stylesheet"> -->
     <script src="assets/libs/jquery/jquery.min.js"></script>
+
+    <!-- Start: Zoom for the images -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/js/zoom/jquery.viewbox.min.js"></script>
+    <!-- End: Zoom for the images -->
+
     <link href="assets/libs/jquery/magnific-popup.css" rel="stylesheet">
     <script src="assets/libs/jquery/jquery.magnific-popup.min.js"></script>
     <script src="js/modernizr-2.6.2.min.js"></script>
@@ -93,15 +106,14 @@
    <!-- Header -->
    
    <header id="header-slider">
-    <div id="particles-js">
-    </div>
+    <div id="particles-js"></div>
     <div id="navanaCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
 
         <div class="carousel-item active slider-bg2">
           <div class="carousel-caption navana-carousel-caption navana-carousel-caption-right">
-            <h3>EVOLUTION IN <span class="caption-color"><br> LIVING WITH <br></span> YTDevelopers REAL ESTATE </h3>
+            <h3>EVOLUTION IN <span class="caption-color"><br> WE BUILD <br></span>  YOUR DREAM HOME </h3>
           </div>
           <!-- <div class="slider-project-name"><a target="_blank" class="cool-link" href="#">YTDevelopers (NAME)</a>
           </div> -->
@@ -109,7 +121,7 @@
 
         <div class="carousel-item slider-bg6">
           <div class="carousel-caption navana-carousel-caption">
-            <h3>DISCOVER<br>THE<span class="caption-color" > BENCHMARK</span> OF<br>EXCELLENCE</h3>
+            <h3>DISCOVER<br>THE<span class="caption-color" >WE BUILD</span> OF<br>YOUR DREAM HOME</h3>
           </div>
           <!-- <div class="slider-project-name"><a target="_blank" class="cool-link" href="#">YTDevelopers (NAME)</a>
           </div> -->
@@ -158,42 +170,41 @@
       </a>
     </div>
     <div class="scroll-downcaption">
-        <a class="scroll-to-down rounded js-scroll-trigger bounce" href="#property-search"><i class="fas fa-arrow-down"></i></a>
+        <a class="scroll-to-down rounded js-scroll-trigger bounce" href="#property-building"><i class="fas fa-arrow-down"></i></a>
         <a class="navbar-brand" href="interior.html">
           <img class="d-block img-fluid" src="interior/assets/img/logo/logo.png" alt="First slide">
         </a>
     </div>
-
   </header>
 
-    <!--search property -->
-    <section class="content-section text-white" id="property-search">
+    <!--building property -->
+    <section class="content-section text-white" id="property-building">
       <div class="container text-center">
         <div class="row">
           <div class="col-md-12">
             <div class="location-button-group">
               <a href="#">
               <div class="button_base b05_3d_roll">
-                <div>DHAKA <i class="fas fa-search" style="color: #fff"></i></div>
-                <div>DHAKA <i class="fas fa-search"></i></div>
+                <div>DHAKA <i class="fas fa-building" style="color: #fff"></i></div>
+                <div>DHAKA <i class="fas fa-building"></i></div>
               </div>
               </a>
                 <a href="#/projects/dhaka">
               <div class="button_base b05_3d_roll">
-                <div>UTTARA <i class="fas fa-search" style="color: #fff"></i></div>
-                <div>UTTARA <i class="fas fa-search"></i></div>
+                <div>UTTARA <i class="fas fa-building" style="color: #fff"></i></div>
+                <div>UTTARA <i class="fas fa-building"></i></div>
               </div>
               </a>
               <a href="projects/chittagong">
               <div class="button_base b05_3d_roll">
-                <div>CHITTAGONG <i class="fas fa-search" style="color: #fff"></i></div>
-                <div>CHITTAGONG <i class="fas fa-search"></i></div>
+                <div>CHITTAGONG <i class="fa fa-building" aria-hidden="true"></i></div>
+                <div>CHITTAGONG <i class="fa fa-building" aria-hidden="true"></i></div>
               </div>
               </a>
                 <a href="projects/dhaka">
               <div class="button_base b05_3d_roll">
-                <div>FENI <i class="fas fa-search" style="color: #fff"></i></div>
-                <div>FENI <i class="fas fa-search"></i></div>
+                <div>FENI <i class="fa fa-building" aria-hidden="true"></i></div>
+                <div>FENI <i class="fa fa-building" aria-hidden="true"></i></div>
               </div>
               </a>
             </div>
@@ -218,104 +229,80 @@
 
         <div class="col-md-3">
               <div class="property-box revealator-zoomin">
-                <a href="#/project-details/unnamed-22">
+                <a href="assets/img/project-20.jpg" class="thumbnail" title="Unnamed @uttara">
                 <img class="img-fluid property-image" src="assets/img/project-20.jpg" alt="UNNAMED">
-                <div class="property-caption">
-                  <h4>UNNAMED<br>@ Banani</h4>
-                </div>
-                <div class="property-details">
-                  <i class="fas fa-search psearch_icon"></i>
+                <div class="category-button-overlay">
+                  <h3 class="btn-category">Project Name</h3>
                 </div>
                 </a>
               </div>
             </div>
         <div class="col-md-3">
               <div class="property-box revealator-zoomin">
-                <a href="#/project-details/unnamed-10">
-                <img class="img-fluid property-image" src="assets/img/project-20.jpg" alt="Unnamed">
-                <div class="property-caption">
-                  <h4>Unnamed<br>@uttara</h4>
-                </div>
-                <div class="property-details">
-                  <i class="fas fa-search psearch_icon"></i>
+                <a href="assets/img/9.jpg" class="thumbnail" title="Unnamed @uttara">
+                <img class="img-fluid property-image" src="assets/img/9.jpg" alt="Unnamed">
+                <div class="category-button-overlay">
+                  <h3 class="btn-category">Project Name</h3>
                 </div>
                 </a>
               </div>
             </div>
         <div class="col-md-3">
               <div class="property-box revealator-zoomin">
-                <a href="#/project-details/navana-concerto">
-                <img class="img-fluid property-image" src="assets/img/project-20.jpg" alt="navana Concerto">
-                <div class="property-caption">
-                  <h4>YTDevelopers Concerto<br>@ Gulshan</h4>
-                </div>
-                <div class="property-details">
-                  <i class="fas fa-search psearch_icon"></i>
+                <a href="assets/img/16.jpg" class="thumbnail" title="YTDevelopers Concerto @ Gulshan">
+                <img class="img-fluid property-image" src="assets/img/16.jpg" alt="navana Concerto">
+                <div class="category-button-overlay">
+                  <h3 class="btn-category">Project Name</h3>
                 </div>
                 </a>
               </div>
             </div>
         <div class="col-md-3">
               <div class="property-box revealator-zoomin">
-                <a href="#/project-details/navana-strand">
-                <img class="img-fluid property-image" src="assets/img/project-20.jpg" alt="THE Strand By navana">
-                <div class="property-caption">
-                  <h4>THE Strand By YTDevelopers<br>@ Gulshan</h4>
-                </div>
-                <div class="property-details">
-                  <i class="fas fa-search psearch_icon"></i>
+                <a href="assets/img/11.jpg" class="thumbnail" title="THE Strand By YTDevelopers @ Gulshan">
+                <img class="img-fluid property-image" src="assets/img/11.jpg" alt="THE Strand By navana">
+                <div class="category-button-overlay">
+                  <h3 class="btn-category">Project Name</h3>
                 </div>
                 </a>
               </div>
             </div>
         <div class="col-md-3">
               <div class="property-box revealator-zoomin">
-                <a href="#/project-details/navana-shangshaptak">
-                <img class="img-fluid property-image" src="assets/img/project-20.jpg" alt="navana Shangshaptak">
-                <div class="property-caption">
-                  <h4>YTDevelopers Shangshaptak<br>@ Gulshan</h4>
-                </div>
-                <div class="property-details">
-                  <i class="fas fa-search psearch_icon"></i>
+                <a href="assets/img/12.jpg" class="thumbnail" title="BYTDevelopers Shangshaptak @ Gulshananani">
+                <img class="img-fluid property-image" src="assets/img/12.jpg" alt="navana Shangshaptak">
+                <div class="category-button-overlay">
+                  <h3 class="btn-category">Project Name</h3>
                 </div>
                 </a>
               </div>
             </div>
         <div class="col-md-3">
               <div class="property-box revealator-zoomin">
-                <a href="#/project-details/navana-centroid">
-                <img class="img-fluid property-image" src="assets/img/project-20.jpg" alt="Centroid By navana">
-                <div class="property-caption">
-                  <h4>Centroid By YTDevelopers<br>@ Uttara</h4>
-                </div>
-                <div class="property-details">
-                  <i class="fas fa-search psearch_icon"></i>
+                <a href="assets/img/7.jpg" class="thumbnail" title="Centroid By YTDevelopers @ Uttara">
+                <img class="img-fluid property-image" src="assets/img/7.jpg" alt="Centroid By navana">
+                <div class="category-button-overlay">
+                  <h3 class="btn-category">Project Name</h3>
                 </div>
                 </a>
               </div>
             </div>
         <div class="col-md-3">
               <div class="property-box revealator-zoomin">
-                <a href="#/project-details/navana-trillium">
-                <img class="img-fluid property-image" src="assets/img/project-20.jpg" alt="THE Trillium By navana">
-                <div class="property-caption">
-                  <h4>THE Trillium <br>@ Gulshan</h4>
-                </div>
-                <div class="property-details">
-                  <i class="fas fa-search psearch_icon"></i>
+                <a href="assets/img/13.jpg" class="thumbnail" title="THE Trillium @ Gulshan">
+                <img class="img-fluid property-image" src="assets/img/13.jpg" alt="THE Trillium By navana">
+                <div class="category-button-overlay">
+                  <h3 class="btn-category">Project Name</h3>
                 </div>
                 </a>
               </div>
             </div>
           <div class="col-md-3">
               <div class="property-box revealator-zoomin">
-                <a href="#/project-details/navana-meher-skylark">
-                <img class="img-fluid property-image" src="assets/img/project-20.jpg" alt="navana Meher Skylark">
-                <div class="property-caption">
-                  <h4>Meher Skylark<br>@ Satmasjid Road</h4>
-                </div>
-                <div class="property-details">
-                  <i class="fas fa-search psearch_icon"></i>
+                <a href="assets/img/15.jpg" class="thumbnail" title="Meher Skylark @ Satmasjid Road">
+                <img class="img-fluid property-image" src="assets/img/15.jpg" alt="navana Meher Skylark">
+                <div class="category-button-overlay">
+                  <h3 class="btn-category">Project Name</h3>
                 </div>
                 </a>
               </div>
@@ -349,7 +336,7 @@
         </div>
         <div class="row margin-30">
             <div class="col-md-4 text-center">
-              <div class="card category-box">
+              <div class="images-section">
                 <img class="img-fluid" src="assets/img/project-20.jpg" alt="Card image cap">
                 <div class="category-button-overlay">
                   <h3 class="btn-category">RESIDENTIAL</h3>
@@ -359,7 +346,7 @@
               <!-- <button type="button" class="btn btn-dark btn-portfolio">RESIDENTIAL</button> -->
             </div>
             <div class="col-md-4">
-              <div class="card category-box">
+              <div class="images-section">
                 <img class="img-fluid" src="assets/img/project-20.jpg" alt="Card image cap">
                 <div class="category-button-overlay">
                   <h3 class="btn-category">COMMERCIAL</h3>
@@ -370,7 +357,7 @@
             </div>
 
             <div class="col-md-4">
-              <div class="card category-box">
+              <div class="images-section">
                 <img class="img-fluid" src="assets/img/project-20.jpg" alt="Card image cap">
                   <div class="category-button-overlay">
                     <h3 class="btn-category">LAND</h3>
@@ -385,8 +372,8 @@
 
     <section class="content-section bg-light1" id="video-section">
       <div class="background-wrap">
-       
-        <iframe width="100%" height="550" src="https://www.youtube.com/embed/oyA7Ucnmje4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="video-overlay">
+        <iframe width="100%" height="550" src="https://www.youtube.com/embed/oyA7Ucnmje4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-overlay">
             <h2 class="video-overlay-title"><span>Explore</span> Inspiration of Service</h2>
         </div>          
       </div>
@@ -405,12 +392,13 @@
       </div>
         
       </div> 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.798943331895!2d90.42349361536274!3d23.754548094533884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b94f158d7ed7%3A0x2e8f4b05a3a9dd4c!2sYT%20developers%20%26%20Trading%20Ltd.!5e0!3m2!1sen!2suk!4v1598114481810!5m2!1sen!2suk" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.798943331895!2d90.42349361536274!3d23.754548094533884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b94f158d7ed7%3A0x2e8f4b05a3a9dd4c!2sYT%20developers%20%26%20Trading%20Ltd.!5e0!3m2!1sen!2suk!4v1598114481810!5m2!1sen!2suk" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
   </section>
 
 
   
   <section class="content-section" id="footer-section">
+    <div class="trans">
       <div id="footer"></div>
       <div class="container">
       <div class="row">
@@ -466,21 +454,28 @@
                     </form>
                   </div>
                 </div>
-      <div class="row copy-right">
+      <!-- <div class="row copy-right">
       <div class="col-md-6 col-md-offset-3 text-center">
-      <p class="fh5co-social-icons">
-      <a href="https://www.facebook.com/YTDevelopers"><i class="icon-twitter2"></i></a>
-      <a href="https://www.facebook.com/YTDevelopers"><i class="icon-facebook2"></i></a>
-      <a href="https://www.facebook.com/YTDevelopers"><i class="icon-instagram"></i></a>
-      <a href="https://www.facebook.com/YTDevelopers"><i class="icon-dribbble2"></i></a>
-      <a href="https://www.facebook.com/YTDevelopers"><i class="icon-youtube"></i></a>
-      </p>
-      <p>&copy; YT developers & trading LTD. <a href="#">YT developers & trading LTD.</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="https://www.linkedin.com/in/ariful-imam-a7820a49/" target="_blank"></a> <a href="https://www.linkedin.com/in/ariful-imam-a7820a49/" target="https://www.linkedin.com/in/ariful-imam-a7820a49/">ARIFUL IMAM </a>
-                  </div>
-                </div>
+        <p class="fh5co-social-icons">
+        <a href="https://www.facebook.com/YTDevelopers"><i class="icon-twitter2"></i></a>
+        <a href="https://www.facebook.com/YTDevelopers"><i class="icon-facebook2"></i></a>
+        <a href="https://www.facebook.com/YTDevelopers"><i class="icon-instagram"></i></a>
+        <a href="https://www.facebook.com/YTDevelopers"><i class="icon-dribbble2"></i></a>
+        <a href="https://www.facebook.com/YTDevelopers"><i class="icon-youtube"></i></a>
+        </p>
+       
+      </div>
+                </div> -->
+                <p class="text-center">
+                  &copy; YT developers & trading LTD. 
+                  <a href="#">YT developers & trading LTD.</a>. 
+                  All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by 
+                  <a href="https://www.linkedin.com/in/ariful-imam-a7820a49/" target="_blank"></a> 
+                  <a href="https://www.linkedin.com/in/ariful-imam-a7820a49/" target="https://www.linkedin.com/in/ariful-imam-a7820a49/">ARIFUL IMAM </a>
+                </p>
               </div>
           
-        
+        </div>
       </section>
     
       
@@ -510,6 +505,25 @@
           $('body').delay(350).css({'overflow':'visible'});
         })
     </script>
+
+<script>
+  $(function(){
+    
+    $('.thumbnail').viewbox();
+    // $('.thumbnail-2').viewbox({fullscreenButton: true});
+
+    (function(){
+      var vb = $('.popup-link').viewbox();
+      $('.popup-open-button').click(function(){
+        vb.trigger('viewbox.open');
+      });
+      $('.close-button').click(function(){
+        vb.trigger('viewbox.close');
+      });
+    })();
+    
+  });
+</script>
 
 
   </body>
