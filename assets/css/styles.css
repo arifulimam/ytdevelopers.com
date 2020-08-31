@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
     -moz-transform: rotateX(-90deg);
 }
 .location-button-group{
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
 }
 .location-button-group a{
@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(../assets/img/loader.gif);
+  background-image: url(../assets/img/);
   background-repeat: no-repeat;
   background-position: center;
   margin: -100px 0 0 -100px;
@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #283038;
 }
 .slider-bg3{
-  background-image: url('../img/1.jpg') !important; 
+  background-image: url('../img/6.jpg') !important; 
   background-position: 50% 0% !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #283038;
 }
 .slider-bg4{
-  background-image: url('../img/5.jpg') !important; 
+  background-image: url('../img/6.jpg') !important; 
   background-position: 50% 0% !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -344,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #283038;
 }
 .slider-bg5{
-  background-image: url('../img/4.jpg') !important; 
+  background-image: url('../img/6.jpg') !important; 
   background-position: 50% 0% !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #283038;
 }
 .slider-bg6{
-  background-image: url('../img/2.jpg') !important; 
+  background-image: url('../img/6.jpg') !important; 
   background-position: 50% 0% !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -1178,7 +1178,7 @@ span.caption-color{
     padding-top: 45%;
 }
 .btn-category{
-  border: 1px solid #5b5b5b;
+  border: 1px solid #0396f8;
   padding: 10px 25px;
   font-size: 20px;
   font-weight: 400;
