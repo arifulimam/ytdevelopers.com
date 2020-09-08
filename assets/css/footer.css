@@ -1,6 +1,6 @@
 /* Footer */
 #footer-section, footer.footer{
-    background-image: url('../img/background.jpg'), url('../img/background.jpg'), url('../img/background.jpg');
+    background-image: url('../img/bg3.jpg'), url('../img/bg3.jpg'), url('../img/background2.jpg');
      background-position: 100%;
     background-repeat: repeat;
   }
